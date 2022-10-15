@@ -22,6 +22,23 @@
         <p>O <strong>Bootstrap</strong> é uma biblioteca orientada componentes, ou seja parte dos layouts já vem criadas e nos cabe alterá-las para o que desejamos. Agilizando muito a parte de desenvolvimento front-end. Criando também um padrão de <strong>grid</strong> facilitando a exibição de conteúdo baseado na resolução.</p>
         <h2>Como se programa com Bootstrap</h2>
         <p>Precisamos conhecer os componentes, consultar documentação, copiar o componente e excluir o que não vamos utilizar ou criar o nosso a partir da refereência das clases.</p>
+        <h2>Diferentes formas de instalação</h2>
+        <p>No Bootstrap temos formas diferentes de fazer o setup. O CDN é um servidor externo que detém os arquivos estáticos. Os arquivos internos, instalamos o Bootstrap a partir de arquivos no nosso servidor, não é muito interessante. Com o npm que é o gerenciador de pacotes do Node.js, que pode instalar o Bootstrap como depêndencia.</p>
+        <h2>Configurações inportantes</h2>
+        <p>Há dois elementos necessários para o correto funcionamento do Bootstrap que precisamos nos atentar no HTML, o DOCTYPE e o viewport (que controla a responsividade) sem esses elementos ele pode funcionar mas com instabilidades.</p>
+        <h2>O que são breakpoints</h2>
+        <p>São pontos específicos de resolução criados através de media query para deixar o site responsivo. Eles seguem um padrão que é encontrado na maioria sos dispositivos, ou seja, temos um breackpoint para tablets, outro para celulares, não existe para todos, mas para os mais utilizados, lembrando que é utilizado um padrã mobile first, ou seja, estilização de menos resolução para maior.</p>
+        <p>Os breackpoints do Bootstrap são utilizados por classes como sm, md, lg, cada um representa uma media query e estão normalmente adequamos outros elementos do nosso site a estes breakpoints, assim é possível trabalhar com conjunto de bootstrap deixando o site responsivo.</p>
+        <h2>Containers</h2>
+        <p>Containers são entidades muto importantes do Bootstrap, estruturam o layout e como o nome diz são containers, depositam outros elementos, temos tipos diferentes de containers, vamos ver como funcionam cada um deles, o uso é o mesmo , separar o site em aréas.</p>
+        <h2>Container Fluid</h2>
+        <p>O COntainer Fluid utiliza uma área maior para abrigar os elementos, sempre representa 100% da área útil, eleminando as margens laterais. A class é Container-fluid.</p>
+        <h2>Container por breackpoint</h2>
+        <p>Podemos também moldar um container pelo breackpoint, utilizamos a classe container-x, onde o x pode ser sm, md, lg e outras classes de breackpoint também, com esta versão, queremos um container que respeite uma largura máxima, que se baseia em uma resolução</p>
+        <h2>Grid</h2>
+        <p>O Grid é uma estrutura para criar layouts com bootstrap, temos um grid colunar, dividido em 12 colunas, A estrutura Grid é sempre: container-row colunas, onde temos o container pata abrigar a seção. Row para determinar uma linha (largura de 100%) e colunas para subdividir containers em até 12 partes.</p>
+        <h2>Tamanho das colunas</h2>
+        <p>Podemos ajustar o tamanho das colunas, para ocupar três espaços: col-3, lembrando que podemos separar em no máximo 12 divisões e o espaço  ocupado será proporcional, ou seja, em col-11 e col-1 teremos uma coluna ocupando quase 100% da largura da row.</p>
     </main>
     <footer>
 
